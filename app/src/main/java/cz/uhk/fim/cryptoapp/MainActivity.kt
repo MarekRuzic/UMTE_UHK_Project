@@ -72,4 +72,5 @@ fun MainScreenPreview() {
     CryptoAppTheme {
         MainScreen(rememberNavController())
     }
+
 }
