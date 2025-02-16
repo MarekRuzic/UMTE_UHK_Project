@@ -72,5 +72,4 @@ fun MainScreenPreview() {
     CryptoAppTheme {
         MainScreen(rememberNavController())
     }
-    //FavoriteCryptoScreen(rememberNavController())
 }
