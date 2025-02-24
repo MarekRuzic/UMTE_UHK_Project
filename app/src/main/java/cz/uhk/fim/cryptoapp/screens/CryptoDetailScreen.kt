@@ -34,7 +34,7 @@ fun CryptoDetailScreen(navController: NavController, cryptoId: String) {
     //todo získat kryptoměnu podle ID a zobrazit její podrobnosti, pokud není žádná nalezena zobrazit chybovou hlášku
     val crypto: Crypto? = CryptoRepository.getCryptoById(cryptoId)
     Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
-        if (crypto != null) {
+        if (crypto != null)  {
 
             Image(painter = painterResource(R.drawable.coin), contentDescription = "Crypto coin", modifier = Modifier.size(100.dp))
             Spacer(modifier = Modifier.height(16.dp))
